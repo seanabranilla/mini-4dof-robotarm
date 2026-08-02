@@ -5,8 +5,8 @@ Overall, this project provides a cost-effective, modular platform to practice In
 
 ---
 
-## **IMPORTANT NOTE**
-- this project is a PROTOTYPE, there are still some minor issues with the mechanical design and parts to be improved.
+## **❗IMPORTANT NOTE❗**
+- this project is a PROTOTYPE, there are still some minor issues with the mechanical design and parts to be improved and are in development
 - this github repo is currently under construction, only major content has been added and there may be some missing files and information.
 
 ---

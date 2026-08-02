@@ -7,8 +7,11 @@ Overall, this project provides a cost-effective, modular platform to practice In
 
 ## *🎯 Project Goals*
 **Low-Cost Kinematic Platform:** Design and build an affordable 4-DOF mini robotic arm using budget-friendly electronics and minimal 3D printing filament.
+
 **Universal Modular Brain:** Build a self-contained, well-built control enclosure that acts as a universal controller for future servo-based robotic arms.
+
 **Design for Manufacturability (DFM):** Optimize CAD geometry during the design phase to minimize support structures and reduce material consumption.
+
 **Rigorous Engineering:** Ensure all link sizing, structural decisions, and actuator choices are driven by real physical calculations rather than trial and error.
 
 ---
@@ -17,11 +20,14 @@ Overall, this project provides a cost-effective, modular platform to practice In
 
 ### 💡 Value Engineering & Hardware:
 **Universal Modular Brain:** Powered by an ESP32 microcontroller paired with a PCA9685 16-channel 12-bit PWM servo driver. Offloading PWM generation to the PCA9685 allows for the brain to control robot arms with multiple servos (up to 16) that act at higher voltage (up to 12v).
+
 **Modular Mounting System:** Uses an integrated sliding dovetail joint to quickly snap the Modular Brain into different arm bases. Dovetail sliders are isolated for easy 3D printing replacement in case of mechanical wear.
 
-###🛠️ Mechanical Design & DFM
+### 🛠️ Mechanical Design & DFM
 **Minimal Support Printing:** Engineered the entire linkage mechanism and brain housing to lay completely flat on the build plate, requiring  minimal support material.
+
 **Material & Weight Optimization:** Applied recessed geometry in non-critical structural areas of the brain housing to minimize filament consumption.
+
 **Anti-Tipping Optimization:** Designed the arm base with top surface recesses and dense bottom infill to lower the overall Center of Gravity (CG) and prevent tip-over during rapid movements. Also added attachments points for legs in case of any tipping.
 
 ### 📐 Static Torque Analysis & Link Sizing

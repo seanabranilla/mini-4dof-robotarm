@@ -1,0 +1,23 @@
+# bill-of-materials
+
+### 🔌 Electronics & Actuators
+| Item | Description | Qty | Notes |
+| :--- | :--- | :---: | :--- |
+| **ESP32 Dev Board** | 38-pin Microcontroller | 1 | main computer + wireless capability|
+| **ESP32 38-pin Super Breakout Board (Purple)** | breakout board for 38-pin ESP32s | 1 | pinout handler + voltage insurance |
+| **PCA9685** | 16-Channel PWM Board | 1 | $I^2C$ Servo driver |
+| **MG90S Servo** | Metal Gear (2.2 kg·cm) | 4 | Base, Shoulder, Elbow, Gripper Actuators |
+| **Standard 5mm LEDs** | theyre leds | 3 | signal indicators |
+| **KCD11 Rocker Switch** | Mini Rocker Switch | 1 | For mode switching |
+| **2.1x5.5mm DC Power Jack** | Power Socket | 1 | For external servo power |
+| **100 Ohm Resistors** | Mini Resistors | 3 | Resistors for LEDs |
+| **10-20cm Female to Female Jumper Wires** | Jumper Wires | 11 | For power and I2C connections |
+| **22 AWG Wire (solid core or stranded)** | Wire | 2 | Main power wire |
+
+
+### 🔩 Fasteners & Mechanical
+| Item | Size / Spec | Qty | Notes |
+| :--- | :--- | :---: |
+| **M3x8 Screws** | M3x8mm Socket Head, Self-tapping | 10 | this part is non-standard, if you can't find it, maybe try the non self-tapping ones. |
+| **M2x5  Screws** | M2x5mm, Socket Head, Self-tapping | 8 | this part is non-standard, if you can't find it, maybe try the non self-tapping ones. |
+| **3D Filament** | PLA (1.75mm) | TBA | N/A |

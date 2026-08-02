@@ -3,6 +3,9 @@
 
 Overall, this project provides a cost-effective, modular platform to practice Inverse Kinematics and experiment with different robotic arm geometries without needing to rebuild the underlying control hardware.
 
+
+## **IMPORTANT NOTE**
+this github repo is currently under construction, only major content has been added and there may be some missing files and information.
 ---
 
 ## *🎯 Project Goals*

@@ -25,7 +25,7 @@ Overall, this project provides a cost-effective, modular platform to practice In
 **Anti-Tipping Optimization:** Designed the arm base with top surface recesses and dense bottom infill to lower the overall Center of Gravity (CG) and prevent tip-over during rapid movements. Also added attachments points for legs in case of any tipping.
 
 ### 📐 Static Torque Analysis & Link Sizing
-- Sized arm link lengths around the strict holding torque limits of the shoulder servo (reported 2.2 kg/cm stall torque).
+- Sized arm link lengths around the strict holding torque limits of the shoulder servo (reported **2.2 kg/cm stall torque**).
 - Created a free-body diagram assuming link material density and cross-sectional areas, applying a 1.5× safety factor to servo self-weight alongside a **30g point-mass payload** at the end effector.
 
 ### 🎛️ Control & Teleoperation

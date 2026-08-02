@@ -1,4 +1,6 @@
 # mini-4dof-robotarm
+<img width="1076" height="639" alt="image" src="https://github.com/user-attachments/assets/9d78bf51-481e-4d2a-8f52-8cb341e40c66" />
+
 **> A 3D printed mini 4-DOF robotic arm featuring a removable control unit, multi-mode teleoperation, and Inverse Kinematics control—engineered around static torque analysis.**
 
 Overall, this project provides a cost-effective, modular platform to practice Inverse Kinematics and experiment with different robotic arm geometries without needing to rebuild the underlying control hardware.
@@ -6,6 +8,8 @@ Overall, this project provides a cost-effective, modular platform to practice In
 ---
 
 ## **❗IMPORTANT NOTE❗**
+<img width="963" height="593" alt="image" src="https://github.com/user-attachments/assets/a746f76f-75af-4b1d-aa84-3ee81d45ec35" />
+
 - this project is a PROTOTYPE, there are still some minor issues with the mechanical design and parts to be improved and are in development
 - this github repo is currently under construction, only major content has been added and there may be some missing files and information.
 

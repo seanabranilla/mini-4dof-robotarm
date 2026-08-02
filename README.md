@@ -31,16 +31,29 @@ Overall, this project provides a cost-effective, modular platform to practice In
 ### 💡 Value Engineering & Hardware:
 **Universal Modular Brain:** Powered by an ESP32 microcontroller paired with a PCA9685 16-channel 12-bit PWM servo driver. Offloading PWM generation to the PCA9685 allows for the brain to control robot arms with multiple servos (up to 16) that act at higher voltage (up to 12v).
 
+
+<img width="1108" height="489" alt="image" src="https://github.com/user-attachments/assets/a6f260f7-b614-4dae-a280-c4fb460c2c49" />
+<img width="1079" height="473" alt="image" src="https://github.com/user-attachments/assets/77d55f2f-6ca0-4421-a9e3-c9ba4d7145a9" />
+
+
 **Modular Mounting System:** Uses an integrated sliding dovetail joint to quickly snap the Modular Brain into different arm bases. Dovetail sliders are isolated for easy 3D printing replacement in case of mechanical wear.
 
 ### 🛠️ Mechanical Design & DFM
 **Minimal Support Printing:** Engineered the entire linkage mechanism and brain housing to lay completely flat on the build plate, requiring  minimal support material.
+
+
+<img width="738" height="707" alt="image" src="https://github.com/user-attachments/assets/ea1f6c0b-7fef-4bb0-b26b-26f29ed212ba" />
+
 
 **Material & Weight Optimization:** Applied recessed geometry in non-critical structural areas of the brain housing to minimize filament consumption.
 
 **Anti-Tipping Optimization:** Designed the arm base with top surface recesses and dense bottom infill to lower the overall Center of Gravity (CG) and prevent tip-over during rapid movements. Also added attachments points for legs in case of any tipping.
 
 ### 📐 Static Torque Analysis & Link Sizing
+
+<img width="1008" height="744" alt="image" src="https://github.com/user-attachments/assets/59528961-f6fb-4f9c-8739-65d6603c0b87" />
+
+
 - Sized arm link lengths around the strict holding torque limits of the shoulder servo (reported **2.2 kg/cm stall torque**).
 - Created a free-body diagram assuming link material density and cross-sectional areas, applying a 1.5× safety factor to servo self-weight alongside a **30g point-mass payload** at the end effector.
 
